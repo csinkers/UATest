@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
- <tileset firstgid="1" source="../ICONGFX0.XLD/0/0_Test.tsx"/>
+ <tileset firstgid="1" source="0/0_Test.tsx"/>
  <layer id="1" name="Underlay" width="64" height="64">
   <data encoding="csv">
 1,322,322,1,1,82,1,322,322,82,202,202,1,202,322,82,202,82,82,322,202,204,3,3,205,205,3,3,3,205,3,205,205,205,3,3,205,205,3,3,205,205,3,3,3,205,3,3,205,3,205,3,3,205,205,205,3,205,3,205,205,3,3,3,

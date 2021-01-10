@@ -4,5 +4,6 @@
     "description": "Public domain assets for the automated tests in UAlbion",
     "author": "Collated and edited by Cam Sinclair, individual assets by various authors and released as public domain / CC0",
     "version": "0.1.0",
+    "asset_path": "Assets",
     "dependencies": []
 }

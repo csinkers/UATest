@@ -1,0 +1,54 @@
+namespace UATest
+{
+    public enum DungeonBackground { TestDungeonBackground = 1 }
+    public enum DungeonObject     { TestDungeonObject     = 1 }
+    public enum Automap           { TestAutomap           = 1 }
+    public enum AutomapTiles      { TestAutomapTiles      = 1 }
+    public enum BlockList         { TestBlockList         = 1 }
+    public enum Chest             { TestChest             = 1 }
+    public enum CombatBackground  { TestCombatBackground  = 1 }
+    public enum CombatGraphics    { TestCombatGraphics    = 1 }
+    public enum CoreSprite        { TestCoreSprite        = 1 }
+    public enum Door              { TestDoor              = 1 }
+    public enum EventSet          { TestEventSet          = 1 }
+    public enum EventText         { TestEventText         = 1 }
+    public enum Floor             { TestFloor             = 1 }
+    public enum Font              { TestFont              = 1 }
+    public enum FullBodyPicture   { TestFullBodyPicture   = 1 }
+    public enum Item              { TestItem              = 1 }
+    public enum ItemGraphics      { TestItemGraphics      = 1 }
+    public enum LabyrinthData     { TestLabyrinthData     = 1 }
+    public enum LargeNpc          { TestLargeNpc          = 1 }
+    public enum LargePartyMember  { TestLargePartyMember  = 1 }
+    public enum Map               { TestMap2D = 1, TestMap3D = 2 }
+    public enum Merchant          { TestMerchant          = 1 }
+    public enum MonsterGraphics   { TestMonsterGraphics   = 1 }
+    public enum MonsterGroup      { TestMonsterGroup      = 1 }
+    public enum Monster           { TestMonster           = 1 }
+    public enum MapText           { TestMapText           = 1 }
+    public enum Npc               { TestNpc               = 1 }
+    public enum WallOverlay       { TestWallOverlay       = 1 }
+    public enum Palette           { TestPalette           = 1 }
+    public enum PartyMember       { TestPartyMember       = 1 }
+    public enum Picture           { TestPicture           = 1 }
+    public enum Portrait          { TestPortrait          = 1 }
+    public enum Sample            { TestSample            = 1 }
+    public enum Script            { TestScript            = 1 }
+    public enum SmallNpc          { TestSmallNpc          = 1 }
+    public enum Song              { TestSong              = 1 }
+    public enum SmallPartyMember  { TestSmallPartyMember  = 1 }
+    public enum Special           { TestSpecial           = 1 }
+    public enum Spell             { TestSpell             = 1 }
+    public enum SystemText        { TestSystemText        = 1 }
+    public enum Switch            { TestSwitch            = 1 }
+    public enum TacticalGraphics  { TestTacticalGraphics  = 1 }
+    public enum Ticker            { TestTicker            = 1 }
+    public enum TilesetData       { TestTilesetData       = 1 }
+    public enum TilesetGraphics   { TestTilesetGraphics   = 1 }
+    public enum UiBackground      { TestUiBackground      = 1 }
+    public enum UAlbionString     { TestUAlbionString     = 1 }
+    public enum Video             { TestVideo             = 1 }
+    public enum Wall              { TestWall              = 1 }
+    public enum WaveLibrary       { TestWaveLibrary       = 1 }
+    public enum Word              { TestWord              = 1 }
+}

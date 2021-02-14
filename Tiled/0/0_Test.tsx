@@ -6,11 +6,13 @@
   <terrain name="Sand" tile="2"/>
   <terrain name="Water" tile="2"/>
   <terrain name="Dirt" tile="2"/>
+  <terrain name="Nothing" tile="0"/>
+  <terrain name="Fence" tile="134"/>
  </terraintypes>
- <tile id="0" terrain="0,0,0,0">
+ <tile id="0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="1" terrain="1,1,1,1">
@@ -22,32 +24,44 @@
  <tile id="2" terrain="2,2,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="3" terrain="3,3,3,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="4">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="3">
+   <object id="2" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="5">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="6">
+   <object id="5" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="6">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="3">
+   <object id="2" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="7">
   <properties>
@@ -70,7 +84,7 @@
  <tile id="10">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="11">
@@ -142,25 +156,25 @@
  <tile id="40" terrain="1,1,1,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="41" terrain="1,1,0,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="42" terrain="1,1,0,1">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="43" terrain="0,0,0,1">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="44" terrain="0,0,1,1">
@@ -172,19 +186,19 @@
  <tile id="45" terrain="0,0,1,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="46" terrain="1,1,1,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="47" terrain="1,1,3,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="48" terrain="1,1,3,1">
@@ -298,31 +312,31 @@
  <tile id="84" terrain="1,1,1,1">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="85" terrain="1,0,1,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="86" terrain="1,3,1,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="87" terrain="3,3,3,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="88" terrain="3,1,3,1">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="89" terrain="3,1,3,1">
@@ -349,29 +363,41 @@
    <property name="Type" value="Normal"/>
   </properties>
  </tile>
- <tile id="93">
+ <tile id="93" terrain="4,4,4,5">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
- <tile id="94">
+ <tile id="94" terrain="4,4,5,5">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
- <tile id="95">
+ <tile id="95" terrain="4,4,5,5">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
- <tile id="96">
+ <tile id="96" terrain="4,4,5,4">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="3">
+   <object id="2" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="97">
   <properties>
@@ -430,31 +456,31 @@
  <tile id="124" terrain="1,1,0,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="125" terrain="1,0,0,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="126" terrain="1,3,1,1">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="127" terrain="3,3,1,1">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="128" terrain="3,1,1,1">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="129" terrain="3,1,3,3">
@@ -481,29 +507,41 @@
    <property name="Type" value="Normal"/>
   </properties>
  </tile>
- <tile id="133">
+ <tile id="133" terrain="4,5,4,5">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
- <tile id="134">
+ <tile id="134" terrain="5,5,5,5">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="135">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
- <tile id="136">
+ <tile id="136" terrain="5,4,5,4">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="137">
   <properties>
@@ -540,72 +578,108 @@
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="161" terrain="2,2,0,0">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="162" terrain="2,2,0,2">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="163" terrain="0,0,0,2">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="164" terrain="0,0,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="165" terrain="0,0,2,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="166" terrain="2,2,2,1">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="3">
+   <object id="2" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="167" terrain="2,2,1,1">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="168" terrain="2,2,1,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="169" terrain="1,1,1,2">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="170" terrain="1,1,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="171" terrain="1,1,2,1">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="172">
   <properties>
@@ -613,29 +687,35 @@
    <property name="Type" value="Normal"/>
   </properties>
  </tile>
- <tile id="173">
+ <tile id="173" terrain="4,5,4,5">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="174">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
  </tile>
- <tile id="175">
+ <tile id="175" terrain="4,4,4,4">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
  </tile>
- <tile id="176">
+ <tile id="176" terrain="5,4,5,4">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="177">
   <properties>
@@ -672,6 +752,9 @@
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="201" terrain="0,0,0,0">
   <properties>
@@ -684,6 +767,9 @@
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="203" terrain="0,2,0,2">
   <properties>
@@ -694,50 +780,71 @@
  <tile id="204" terrain="2,2,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="205" terrain="2,0,2,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="206" terrain="2,1,2,1">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="207" terrain="1,1,1,1">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="208" terrain="1,2,1,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="209" terrain="1,2,1,2">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="210" terrain="2,2,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="211" terrain="2,1,2,1">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="212">
   <properties>
@@ -745,29 +852,41 @@
    <property name="Type" value="Normal"/>
   </properties>
  </tile>
- <tile id="213">
+ <tile id="213" terrain="4,5,4,4">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
- <tile id="214">
+ <tile id="214" terrain="5,5,4,4">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
- <tile id="215">
+ <tile id="215" terrain="5,5,4,4">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
- <tile id="216">
+ <tile id="216" terrain="5,4,4,4">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="217">
   <properties>
@@ -804,72 +923,108 @@
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="241" terrain="0,0,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="242" terrain="0,2,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="243" terrain="0,2,0,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="244" terrain="2,2,0,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="245" terrain="2,0,0,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="246" terrain="2,1,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="247" terrain="1,1,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="248" terrain="1,2,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="249" terrain="1,2,1,1">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="250" terrain="2,2,1,1">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="251" terrain="2,1,1,1">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="252">
   <properties>
@@ -880,25 +1035,25 @@
  <tile id="253">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
  </tile>
  <tile id="254">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
  </tile>
  <tile id="255">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
  </tile>
  <tile id="256">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
  </tile>
  <tile id="257">
@@ -940,19 +1095,19 @@
  <tile id="281" terrain="3,3,0,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="282" terrain="3,3,0,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="283" terrain="0,0,0,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="284" terrain="0,0,3,3">
@@ -964,44 +1119,62 @@
  <tile id="285" terrain="0,0,3,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="286" terrain="3,3,3,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="287" terrain="3,3,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="288" terrain="3,3,2,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="289" terrain="2,2,2,3">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="290" terrain="2,2,3,3">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="291" terrain="2,2,3,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="292">
   <properties>
@@ -1012,26 +1185,38 @@
  <tile id="293">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="294">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="295">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="296">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="297">
   <properties>
@@ -1072,19 +1257,19 @@
  <tile id="321" terrain="0,0,0,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="322" terrain="0,3,0,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="323" terrain="0,3,0,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="324" terrain="3,3,3,3">
@@ -1096,32 +1281,44 @@
  <tile id="325" terrain="3,0,3,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="326" terrain="3,2,3,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="327" terrain="2,2,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="328" terrain="2,3,2,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="329" terrain="2,3,2,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="330" terrain="3,3,3,3">
   <properties>
@@ -1132,8 +1329,11 @@
  <tile id="331" terrain="3,2,3,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="332">
   <properties>
@@ -1144,26 +1344,35 @@
  <tile id="333">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="334">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
  </tile>
  <tile id="335">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Normal"/>
+   <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="336">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Overlay1"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="337">
   <properties>
@@ -1222,7 +1431,7 @@
  <tile id="364" terrain="3,3,0,0">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
  </tile>
  <tile id="365" terrain="3,0,0,0">
@@ -1234,38 +1443,56 @@
  <tile id="366" terrain="3,2,3,3">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="367" terrain="2,2,3,3">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="368" terrain="2,3,3,3">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="369" terrain="2,3,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="370" terrain="3,3,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
    <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="371" terrain="3,2,2,2">
   <properties>
    <property name="Layer" value="Normal"/>
-   <property name="Type" value="Overlay1"/>
+   <property name="Type" value="Normal"/>
   </properties>
+  <objectgroup draworder="index" id="2">
+   <object id="1" x="0" y="0" width="16" height="16"/>
+  </objectgroup>
  </tile>
  <tile id="372">
   <properties>
@@ -2383,4 +2610,25 @@
    <property name="Type" value="Normal"/>
   </properties>
  </tile>
+ <wangsets>
+  <wangset name="Walls" tile="-1">
+   <wangedgecolor name="" color="#ff0000" tile="-1" probability="1"/>
+   <wangedgecolor name="" color="#00ff00" tile="-1" probability="1"/>
+   <wangtile tileid="93" wangid="0x10100"/>
+   <wangtile tileid="94" wangid="0x10100"/>
+   <wangtile tileid="95" wangid="0x1000100"/>
+   <wangtile tileid="96" wangid="0x1010000"/>
+   <wangtile tileid="133" wangid="0x10101"/>
+   <wangtile tileid="134" wangid="0x1010101"/>
+   <wangtile tileid="135" wangid="0x100"/>
+   <wangtile tileid="136" wangid="0x1010001"/>
+   <wangtile tileid="173" wangid="0x10001"/>
+   <wangtile tileid="174" wangid="0x10001"/>
+   <wangtile tileid="176" wangid="0x10001"/>
+   <wangtile tileid="213" wangid="0x101"/>
+   <wangtile tileid="214" wangid="0x1000100"/>
+   <wangtile tileid="215" wangid="0x1000100"/>
+   <wangtile tileid="216" wangid="0x1000000"/>
+  </wangset>
+ </wangsets>
 </tileset>

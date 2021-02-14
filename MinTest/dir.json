@@ -1,0 +1,144 @@
+{
+  "IdTypes": [
+    { "Alias": "3dbg",       "AssetType": "BackgroundGraphics", "EnumType": "UATest.DungeonBackground, UATest" },
+    { "Alias": "3dobj",      "AssetType": "Object3D",           "EnumType": "UATest.DungeonObject, UATest" },
+    { "Alias": "automap",    "AssetType": "Automap",            "EnumType": "UATest.Automap, UATest", "CopiedFrom": "UATest.Map, UATest" },
+    { "Alias": "autotile",   "AssetType": "AutomapGraphics",    "EnumType": "UATest.AutomapTiles, UATest" },
+    { "Alias": "block",      "AssetType": "BlockList",          "EnumType": "UATest.BlockList, UATest", "CopiedFrom": "UATest.TilesetData, UATest" },
+    { "Alias": "chest",      "AssetType": "Chest",              "EnumType": "UATest.Chest, UATest" },
+    { "Alias": "combg",      "AssetType": "CombatBackground",   "EnumType": "UATest.CombatBackground, UATest" },
+    { "Alias": "comgfx",     "AssetType": "CombatGraphics",     "EnumType": "UATest.CombatGraphics, UATest" },
+    { "Alias": "coresprite", "AssetType": "CoreGraphics",       "EnumType": "UATest.CoreSprite, UATest" },
+    { "Alias": "door",       "AssetType": "Door",               "EnumType": "UATest.Door, UATest" },
+    { "Alias": "eset",       "AssetType": "EventSet",           "EnumType": "UATest.EventSet, UATest" },
+    { "Alias": "etext",      "AssetType": "EventText",          "EnumType": "UATest.EventText, UATest", "CopiedFrom": "UATest.EventSet, UATest" },
+    { "Alias": "floor",      "AssetType": "Floor",              "EnumType": "UATest.Floor, UATest" },
+    { "Alias": "font",       "AssetType": "Font",               "EnumType": "UATest.Font, UATest" },
+    { "Alias": "fullbody",   "AssetType": "FullBodyPicture",    "EnumType": "UATest.FullBodyPicture, UATest", "CopiedFrom": "UATest.PartyMember, UATest" },
+    { "Alias": "item",       "AssetType": "Item",               "EnumType": "UATest.Item, UATest" },
+    { "Alias": "itemgfx",    "AssetType": "ItemGraphics",       "EnumType": "UATest.ItemGraphics, UATest" },
+    { "Alias": "lab",        "AssetType": "Labyrinth",          "EnumType": "UATest.LabyrinthData, UATest" },
+    { "Alias": "lnpc",       "AssetType": "BigNpcGraphics",     "EnumType": "UATest.LargeNpc, UATest" },
+    { "Alias": "lparty",     "AssetType": "BigPartyGraphics",   "EnumType": "UATest.LargePartyMember, UATest" },
+    { "Alias": "map",        "AssetType": "Map",                "EnumType": "UATest.Map, UATest" },
+    { "Alias": "merchant",   "AssetType": "Merchant",           "EnumType": "UATest.Merchant, UATest" },
+    { "Alias": "mongfx",     "AssetType": "MonsterGraphics",    "EnumType": "UATest.MonsterGraphics, UATest" },
+    { "Alias": "mongrp",     "AssetType": "MonsterGroup",       "EnumType": "UATest.MonsterGroup, UATest" },
+    { "Alias": "monster",    "AssetType": "Monster",            "EnumType": "UATest.Monster, UATest" },
+    { "Alias": "mtext",      "AssetType": "MapText",            "EnumType": "UATest.MapText, UATest", "CopiedFrom": "UATest.Map, UATest" },
+    { "Alias": "npc",        "AssetType": "Npc",                "EnumType": "UATest.Npc, UATest" },
+    { "Alias": "overlay",    "AssetType": "WallOverlay",        "EnumType": "UATest.WallOverlay, UATest" },
+    { "Alias": "pal",        "AssetType": "Palette",            "EnumType": "UATest.Palette, UATest" },
+    { "Alias": "party",      "AssetType": "PartyMember",        "EnumType": "UATest.PartyMember, UATest" },
+    { "Alias": "pic",        "AssetType": "Picture",            "EnumType": "UATest.Picture, UATest" },
+    { "Alias": "portrait",   "AssetType": "Portrait",           "EnumType": "UATest.Portrait, UATest" },
+    { "Alias": "sample",     "AssetType": "Sample",             "EnumType": "UATest.Sample, UATest" },
+    { "Alias": "script",     "AssetType": "Script",             "EnumType": "UATest.Script, UATest" },
+    { "Alias": "snpc",       "AssetType": "SmallNpcGraphics",   "EnumType": "UATest.SmallNpc, UATest" },
+    { "Alias": "song",       "AssetType": "Song",               "EnumType": "UATest.Song, UATest" },
+    { "Alias": "sparty",     "AssetType": "SmallPartyGraphics", "EnumType": "UATest.SmallPartyMember, UATest" },
+    { "Alias": "special",    "AssetType": "Special",            "EnumType": "UATest.Special, UATest" },
+    { "Alias": "spell",      "AssetType": "Spell",              "EnumType": "UATest.Spell, UATest" },
+    { "Alias": "stext",      "AssetType": "Text",               "EnumType": "UATest.SystemText, UATest" },
+    { "Alias": "switch",     "AssetType": "Switch",             "EnumType": "UATest.Switch, UATest" },
+    { "Alias": "tacgfx",     "AssetType": "TacticalIcon",       "EnumType": "UATest.TacticalGraphics, UATest" },
+    { "Alias": "ticker",     "AssetType": "Ticker",             "EnumType": "UATest.Ticker, UATest" },
+    { "Alias": "tiledata",   "AssetType": "TilesetData",        "EnumType": "UATest.TilesetData, UATest" },
+    { "Alias": "tilegfx",    "AssetType": "TilesetGraphics",    "EnumType": "UATest.TilesetGraphics, UATest", "CopiedFrom": "UATest.TilesetData, UATest" },
+    { "Alias": "uibg",       "AssetType": "Slab",               "EnumType": "UATest.UiBackground, UATest" },
+    { "Alias": "utext",      "AssetType": "Text",               "EnumType": "UATest.UAlbionString, UATest" },
+    { "Alias": "vid",        "AssetType": "Video",              "EnumType": "UATest.Video, UATest" },
+    { "Alias": "wall",       "AssetType": "Wall",               "EnumType": "UATest.Wall, UATest" },
+    { "Alias": "wavlib",     "AssetType": "WaveLibrary",        "EnumType": "UATest.WaveLibrary, UATest", "CopiedFrom": "UATest.Song, UATest" },
+    { "Alias": "word",       "AssetType": "Word",               "EnumType": "UATest.Word, UATest" }
+  ],
+
+  "Loaders": {
+    "amorphous":   "UAlbion.Formats.Parsers.AmorphousSpriteLoader, UAlbion.Formats",
+    "automap":     "UAlbion.Formats.Parsers.AutomapLoader, UAlbion.Formats",
+    "block":       "UAlbion.Formats.Parsers.BlockListLoader, UAlbion.Formats",
+    "chest":       "UAlbion.Formats.Parsers.ChestLoader, UAlbion.Formats",
+    "eset":        "UAlbion.Formats.Parsers.EventSetLoader, UAlbion.Formats",
+    "fixedsize":   "UAlbion.Formats.Parsers.FixedSizeSpriteLoader, UAlbion.Formats",
+    "flic":        "UAlbion.Formats.Parsers.FlicLoader, UAlbion.Formats",
+    "font":        "UAlbion.Formats.Parsers.FontSpriteLoader, UAlbion.Formats",
+    "header":      "UAlbion.Formats.Parsers.HeaderBasedSpriteLoader, UAlbion.Formats",
+    "interlaced":  "UAlbion.Formats.Parsers.InterlacedBitmapLoader, UAlbion.Formats",
+    "itemdata":    "UAlbion.Formats.Parsers.ItemDataLoader, UAlbion.Formats",
+    "itemname":    "UAlbion.Formats.Parsers.ItemNameLoader, UAlbion.Formats",
+    "json":        "UAlbion.Formats.Parsers.JsonStringLoader, UAlbion.Formats",
+    "lab":         "UAlbion.Formats.Parsers.LabyrinthDataLoader, UAlbion.Formats",
+    "map":         "UAlbion.Formats.Parsers.MapLoader, UAlbion.Formats",
+    "merchant":    "UAlbion.Formats.Parsers.MerchantLoader, UAlbion.Formats",
+    "mongrp":      "UAlbion.Formats.Parsers.MonsterGroupLoader, UAlbion.Formats",
+    "pal":         "UAlbion.Formats.Parsers.PaletteLoader, UAlbion.Formats",
+    "sample":      "UAlbion.Formats.Parsers.SampleLoader, UAlbion.Formats",
+    "script":      "UAlbion.Formats.Parsers.ScriptLoader, UAlbion.Formats",
+    "sheet":       "UAlbion.Formats.Parsers.CharacterSheetLoader, UAlbion.Formats",
+    "slab":        "UAlbion.Formats.Parsers.SlabLoader, UAlbion.Formats",
+    "song":        "UAlbion.Formats.Parsers.SongLoader, UAlbion.Formats",
+    "soundbank":   "UAlbion.Game.Assets.SoundBankLoader, UAlbion.Game",
+    "spell":       "UAlbion.Formats.Parsers.SpellLoader, UAlbion.Formats",
+    "stext":       "UAlbion.Formats.Parsers.SystemTextLoader, UAlbion.Formats",
+    "stringtable": "UAlbion.Formats.Parsers.AlbionStringTableLoader, UAlbion.Formats",
+    "tileset":     "UAlbion.Formats.Parsers.TilesetLoader, UAlbion.Formats",
+    "wavlib":      "UAlbion.Formats.Parsers.WaveLibLoader, UAlbion.Formats",
+    "wordlist":    "UAlbion.Formats.Parsers.WordListLoader, UAlbion.Formats"
+  },
+
+  "Files": {
+    "Dir": {
+      "Map": {
+        "0":  { "Loader": "png",    "Width": 8, "height": 8, "Id": "autotile.1" } , // AutomapGfx.png
+        "1":  { "Loader": "png",    "Id": "3dbg.1" } , // BackgroundGfx.png
+        "2":  { "Loader": "png",    "Height": 32, "Id": "lnpc.1" } , // BigNpc.png
+        "3":  { "Loader": "png",    "Height": 32, "Id": "lparty.1" } , // BigParty.png
+        "4":  { "Loader": "png",    "Id": "combg.1"      } , // CombatBackground.png
+        "5":  { "Loader": "png",    "Id": "comgfx.1"     } , // CombatGraphics.png
+        "6":  { "Loader": "png",    "Id": "coresprite.1" } , // CoreGraphics.png
+        "7":  { "Loader": "png",    "Id": "floor.1"      } , // Floor.png
+        "8":  { "Loader": "png",    "Id": "fullbody.1"   } , // FullBody.png
+        "9":  { "Loader": "png",    "Width": 32, "Height": 32, "Id": "tilegfx.1" } , // TilesetGraphics.png
+        "10": { "Loader": "png",    "Id": "itemgfx.1"    } , // ItemGraphics.png
+        "11": { "Loader": "png",    "Height": 32, "Id": "mongfx.1" } , // MonsterGraphics.png
+        "12": { "Loader": "png",    "Id": "3dobj.1"      } , // Object.png
+        "13": { "Loader": "png",    "Id": "pic.1"        } , // Picture.png
+        "14": { "Loader": "png",    "Id": "uibg.1"       } , // Slab.png
+        "15": { "Loader": "png",    "Height": 16, "Id": "snpc.1"       } , // SmallNpc.png
+        "16": { "Loader": "png",    "Height": 16, "Id": "sparty.1"     } , // SmallParty.png
+        "17": { "Loader": "png",    "Id": "portrait.1"   } , // Portrait.png
+        "18": { "Loader": "png",    "Width": 16, "Height": 16, "Id": "tacgfx.1" } , // TacticalIcon.png
+        "19": { "Loader": "png",    "Id": "wall.1"       } , // Wall.png
+        "20": { "Loader": "png",    "Id": "overlay.1"    } , // Overlay.png
+        "21": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.Inventory, UAlbion.Formats", "Id": "chest.1"      } , // Chest.json
+        "22": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.Inventory, UAlbion.Formats", "Id": "merchant.1"   } , // Merchant.json
+        // 23
+        "24": { "Loader": "script", "Id": "eset.1"       } , // EventSet.json
+        "25": { "Loader": "script", "Id": "script.1"     } , // Script.txt
+        "26": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.ItemData, UAlbion.Formats", "Id": "item.1"       } , // Item.json
+        "27": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.Labyrinth.LabyrinthData, UAlbion.Formats", "Id": "lab.1"        } , // Labyrinth.json
+        "28": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.Maps.MapData2D, UAlbion.Formats", "Id": "map.1"        } , // Map2D.json
+        "29": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.Maps.MapData3D, UAlbion.Formats", "Id": "map.2"        } , // Map3D.json
+        "30": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.Automap, UAlbion.Formats", "Id": "automap.1"    } , // Automap.json
+        "31": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.CharacterSheet, UAlbion.Formats", "Id": "monster.1"    } , // Monster.json
+        "32": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.CharacterSheet, UAlbion.Formats", "Id": "npc.1"        } , // Npc.json
+        "33": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.CharacterSheet, UAlbion.Formats", "Id": "party.1"      } , // PartyMember.json
+        "34": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.MonsterGroup, UAlbion.Formats", "Id": "mongrp.1"     } , // MonsterGroup.json
+        "35": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.AlbionPalette, UAlbion.Formats", "Id": "pal.0"        } , // Palette.json
+        "36": { "Loader": "wav",    "Id": "sample.1"     } , // Sample.wav
+        "37": { "Loader": "midi",   "Id": "song.1"       } , // Song.mid
+        "38": { "Loader": "",       "Id": "wavlib.1"     } , // WaveLibrary
+        "39": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.SpellData, UAlbion.Formats", "Id": "spell.1"      } , // Spell.json
+        "40": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.Maps.TilesetData, UAlbion.Formats", "Id": "tiledata.1"   } , // Tileset.jso
+        "41": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.BlockList, UAlbion.Formats", "Id": "block.1"      } , // BlockList.json
+        "42": { "Loader": "flc",    "Id": "vid.1"        } , // Video.flc
+        "43": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.StringTable, UAlbion.Formats", "Id": "etext.1"      } , // EventText.json
+        "44": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.StringTable, UAlbion.Formats", "Id": "mtext.1"      } , // MapText.json
+        "45": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.StringTable, UAlbion.Formats", "Id": "stext.1"      } , // Text.json
+        "46": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.StringTable, UAlbion.Formats", "Id": "word.1"       } , // Words.json
+        "47": { "Loader": "json",   "JsonType": "UAlbion.Formats.Assets.AlbionPalette, UAlbion.Formats", "Id": "pal.1"        } , // Palette.json
+      }
+    }
+  }
+}
+// vim: ts=2 sw=2

@@ -1,8 +1,8 @@
 {
-    "repo": "https://github.com/CSinkers/UATest",
-    "name":" UATest",
-    "description": "Public domain assets for the automated tests in UAlbion",
-    "author": "Collated and edited by Cam Sinclair, individual assets by various authors and released as public domain / CC0",
-    "version": "0.1.0",
-    "dependencies": []
+    "Repo": "https://github.com/CSinkers/UATest",
+    "Name":" UATest",
+    "Description": "Public domain assets for the automated tests in UAlbion",
+    "Author": "Collated and edited by Cam Sinclair, individual assets by various authors and released as public domain / CC0",
+    "Version": "0.1.0",
+    "Dependencies": []
 }

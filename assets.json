@@ -1,55 +1,36 @@
 {
   "IdTypes": {
-    "3dbg":  { "AssetType": "BackgroundGraphics", "EnumType": "UAlbion.Base.DungeonBackground, UAlbion.Base" },
-    "3dobj": { "AssetType": "Object3D",           "EnumType": "UAlbion.Base.DungeonObject, UAlbion.Base" },
-    "automap": {
-      "AssetType": "Automap",
-      "EnumType": "UAlbion.Base.Automap, UAlbion.Base",
-      "CopiedFrom": "UAlbion.Base.Map, UAlbion.Base"
-    },
-    "autotile": { "AssetType": "AutomapGraphics", "EnumType": "UAlbion.Base.AutomapTiles, UAlbion.Base" },
-    "block": {
-      "AssetType": "BlockList",
-      "EnumType": "UAlbion.Base.BlockList, UAlbion.Base",
-      "CopiedFrom": "UAlbion.Base.TilesetData, UAlbion.Base"
-    },
-    "chest":      { "AssetType": "Chest",            "EnumType": "UAlbion.Base.Chest, UAlbion.Base" },
-    "combg":      { "AssetType": "CombatBackground", "EnumType": "UAlbion.Base.CombatBackground, UAlbion.Base" },
-    "comgfx":     { "AssetType": "CombatGraphics",   "EnumType": "UAlbion.Base.CombatGraphics, UAlbion.Base" },
-    "coresprite": { "AssetType": "CoreGraphics",     "EnumType": "UAlbion.Base.CoreSprite, UAlbion.Base" },
-    "door":       { "AssetType": "Door",             "EnumType": "UAlbion.Base.Door, UAlbion.Base" },
-    "eset":       { "AssetType": "EventSet",         "EnumType": "UAlbion.Base.EventSet, UAlbion.Base" },
-    "etext":      {
-      "AssetType": "EventText",
-      "EnumType": "UAlbion.Base.EventText, UAlbion.Base",
-      "CopiedFrom": "UAlbion.Base.EventSet, UAlbion.Base"
-    },
-    "floor": { "AssetType": "Floor", "EnumType": "UAlbion.Base.Floor, UAlbion.Base" },
-    "font":  {  "AssetType": "Font",  "EnumType": "UAlbion.Base.Font, UAlbion.Base" },
-    "fullbody": {
-      "AssetType": "FullBodyPicture",
-      "EnumType": "UAlbion.Base.FullBodyPicture, UAlbion.Base",
-      "CopiedFrom": "UAlbion.Base.PartyMember, UAlbion.Base"
-    },
-    "item":     { "AssetType": "Item",             "EnumType": "UAlbion.Base.Item, UAlbion.Base" },
-    "itemgfx":  { "AssetType": "ItemGraphics",     "EnumType": "UAlbion.Base.ItemGraphics, UAlbion.Base" },
-    "lab":      { "AssetType": "Labyrinth",        "EnumType": "UAlbion.Base.LabyrinthData, UAlbion.Base" },
-    "lnpc":     { "AssetType": "BigNpcGraphics",   "EnumType": "UAlbion.Base.LargeNpc, UAlbion.Base" },
-    "lparty":   { "AssetType": "BigPartyGraphics", "EnumType": "UAlbion.Base.LargePartyMember, UAlbion.Base" },
-    "map":      { "AssetType": "Map",              "EnumType": "UAlbion.Base.Map, UAlbion.Base" },
-    "merchant": { "AssetType": "Merchant",         "EnumType": "UAlbion.Base.Merchant, UAlbion.Base" },
-    "mongfx":   { "AssetType": "MonsterGraphics",  "EnumType": "UAlbion.Base.MonsterGraphics, UAlbion.Base" },
-    "mongrp":   { "AssetType": "MonsterGroup",     "EnumType": "UAlbion.Base.MonsterGroup, UAlbion.Base" },
-    "monster":  { "AssetType": "Monster",          "EnumType": "UAlbion.Base.Monster, UAlbion.Base" },
-    "mtext": {
-      "AssetType": "MapText",
-      "EnumType": "UAlbion.Base.MapText, UAlbion.Base",
-      "CopiedFrom": "UAlbion.Base.Map, UAlbion.Base"
-    },
+    "3dbg":     { "AssetType": "BackgroundGraphics", "EnumType": "UAlbion.Base.DungeonBackground, UAlbion.Base" },
+    "3dobj":    { "AssetType": "Object3D",           "EnumType": "UAlbion.Base.DungeonObject, UAlbion.Base" },
+    "automap":  { "AssetType": "Automap",            "EnumType": "UAlbion.Base.Automap, UAlbion.Base" },
+    "autotile": { "AssetType": "AutomapGraphics",    "EnumType": "UAlbion.Base.AutomapTiles, UAlbion.Base" },
+    "block":    { "AssetType": "BlockList",          "EnumType": "UAlbion.Base.BlockList, UAlbion.Base" },
+    "chest":    { "AssetType": "Chest",              "EnumType": "UAlbion.Base.Chest, UAlbion.Base" },
+    "combg":    { "AssetType": "CombatBackground",   "EnumType": "UAlbion.Base.CombatBackground, UAlbion.Base" },
+    "comgfx":   { "AssetType": "CombatGraphics",     "EnumType": "UAlbion.Base.CombatGraphics, UAlbion.Base" },
+    "coregfx":  { "AssetType": "CoreGraphics",       "EnumType": "UAlbion.Base.CoreSprite, UAlbion.Base" },
+    "door":     { "AssetType": "Door",               "EnumType": "UAlbion.Base.Door, UAlbion.Base" },
+    "eset":     { "AssetType": "EventSet",           "EnumType": "UAlbion.Base.EventSet, UAlbion.Base" },
+    "etext":    { "AssetType": "EventText",          "EnumType": "UAlbion.Base.EventText, UAlbion.Base" },
+    "floor":    { "AssetType": "Floor",              "EnumType": "UAlbion.Base.Floor, UAlbion.Base" },
+    "font":     { "AssetType": "Font",               "EnumType": "UAlbion.Base.Font, UAlbion.Base" },
+    "fullbody": { "AssetType": "FullBodyPicture",    "EnumType": "UAlbion.Base.FullBodyPicture, UAlbion.Base" },
+    "item":     { "AssetType": "Item",               "EnumType": "UAlbion.Base.Item, UAlbion.Base" },
+    "itemgfx":  { "AssetType": "ItemGraphics",       "EnumType": "UAlbion.Base.ItemGraphics, UAlbion.Base" },
+    "itemname": { "AssetType": "ItemName",           "EnumType": "UAlbion.Base.ItemName, UAlbion.Base" },
+    "lab":      { "AssetType": "Labyrinth",          "EnumType": "UAlbion.Base.Labyrinth, UAlbion.Base" },
+    "lnpc":     { "AssetType": "LargeNpcGraphics",   "EnumType": "UAlbion.Base.LargeNpc, UAlbion.Base" },
+    "lparty":   { "AssetType": "LargePartyGraphics", "EnumType": "UAlbion.Base.LargePartyMember, UAlbion.Base" },
+    "map":      { "AssetType": "Map",                "EnumType": "UAlbion.Base.Map, UAlbion.Base" },
+    "merchant": { "AssetType": "Merchant",           "EnumType": "UAlbion.Base.Merchant, UAlbion.Base" },
+    "mongfx":   { "AssetType": "MonsterGraphics",    "EnumType": "UAlbion.Base.MonsterGraphics, UAlbion.Base" },
+    "mongrp":   { "AssetType": "MonsterGroup",       "EnumType": "UAlbion.Base.MonsterGroup, UAlbion.Base" },
+    "monster":  { "AssetType": "Monster",            "EnumType": "UAlbion.Base.Monster, UAlbion.Base" },
+    "mtext":    { "AssetType": "MapText",            "EnumType": "UAlbion.Base.MapText, UAlbion.Base" },
     "npc":      { "AssetType": "Npc",                "EnumType": "UAlbion.Base.Npc, UAlbion.Base" },
     "overlay":  { "AssetType": "WallOverlay",        "EnumType": "UAlbion.Base.WallOverlay, UAlbion.Base" },
     "pal":      { "AssetType": "Palette",            "EnumType": "UAlbion.Base.Palette, UAlbion.Base" },
-    "party":    { "AssetType": "PartyMember",        "EnumType": "UAlbion.Base.PartyMember, UAlbion.Base" },
+    "party":    { "AssetType": "Party",              "EnumType": "UAlbion.Base.PartyMember, UAlbion.Base" },
     "pic":      { "AssetType": "Picture",            "EnumType": "UAlbion.Base.Picture, UAlbion.Base" },
     "portrait": { "AssetType": "Portrait",           "EnumType": "UAlbion.Base.Portrait, UAlbion.Base" },
     "sample":   { "AssetType": "Sample",             "EnumType": "UAlbion.Base.Sample, UAlbion.Base" },
@@ -63,308 +44,277 @@
     "switch":   { "AssetType": "Switch",             "EnumType": "UAlbion.Base.Switch, UAlbion.Base" },
     "tacgfx":   { "AssetType": "TacticalIcon",       "EnumType": "UAlbion.Base.TacticalGraphics, UAlbion.Base" },
     "ticker":   { "AssetType": "Ticker",             "EnumType": "UAlbion.Base.Ticker, UAlbion.Base" },
-    "tiledata": { "AssetType": "TilesetData",        "EnumType": "UAlbion.Base.TilesetData, UAlbion.Base" },
-    "tilegfx":  {
-      "AssetType": "TilesetGraphics",
-      "EnumType": "UAlbion.Base.TilesetGraphics, UAlbion.Base",
-      "CopiedFrom": "UAlbion.Base.TilesetData, UAlbion.Base"
-    },
-    "uibg": {  "AssetType": "Slab",  "EnumType": "UAlbion.Base.UiBackground, UAlbion.Base" },
-    "utext": { "AssetType": "Text",  "EnumType": "UAlbion.Base.UAlbionString, UAlbion.Base" },
-    "vid": {   "AssetType": "Video", "EnumType": "UAlbion.Base.Video, UAlbion.Base" },
-    "wall": {  "AssetType": "Wall",  "EnumType": "UAlbion.Base.Wall, UAlbion.Base" },
-    "wavlib": {
-      "AssetType": "WaveLibrary",
-      "EnumType": "UAlbion.Base.WaveLibrary, UAlbion.Base",
-      "CopiedFrom": "UAlbion.Base.Song, UAlbion.Base"
-    },
-    "word": {
-      "AssetType": "Word",
-      "ContainerFormat": "WordListXld",
-      "EnumType": "UAlbion.Base.Word, UAlbion.Base"
-    }
+    "tiledata": { "AssetType": "Tileset",            "EnumType": "UAlbion.Base.Tileset, UAlbion.Base" },
+    "tilegfx":  { "AssetType": "TilesetGraphics",    "EnumType": "UAlbion.Base.TilesetGraphics, UAlbion.Base" },
+    "uibg":     { "AssetType": "Slab",               "EnumType": "UAlbion.Base.UiBackground, UAlbion.Base" },
+    "utext":    { "AssetType": "Text",               "EnumType": "UAlbion.Base.UAlbionString, UAlbion.Base" },
+    "vid":      { "AssetType": "Video",              "EnumType": "UAlbion.Base.Video, UAlbion.Base" },
+    "wall":     { "AssetType": "Wall",               "EnumType": "UAlbion.Base.Wall, UAlbion.Base" },
+    "wavlib":   { "AssetType": "WaveLibrary",        "EnumType": "UAlbion.Base.WaveLibrary, UAlbion.Base" },
+    "word":     { "AssetType": "Word",               "EnumType": "UAlbion.Base.Word, UAlbion.Base" }
   },
 
   "StringMappings": {
     "stext.*":        "special.SystemStrings",
-    "utext.*":        "special.UAlbionStrings",
-    "word.1-500":     "special.Words1",
-    "word.501-1000":  "special.Words2",
-    "word.1001-1500": "special.Words3"
+    "utext.*":        "special.UAlbionStrings"
   },
 
   "Loaders": {
-    "amorphous":   "UAlbion.Formats.Parsers.AmorphousSpriteLoader, UAlbion.Formats",
-    "automap":     "UAlbion.Formats.Parsers.AutomapLoader, UAlbion.Formats",
-    "block":       "UAlbion.Formats.Parsers.BlockListLoader, UAlbion.Formats",
-    "chest":       "UAlbion.Formats.Parsers.ChestLoader, UAlbion.Formats",
-    "eset":        "UAlbion.Formats.Parsers.EventSetLoader, UAlbion.Formats",
-    "fixedsize":   "UAlbion.Formats.Parsers.FixedSizeSpriteLoader, UAlbion.Formats",
-    "flic":        "UAlbion.Formats.Parsers.FlicLoader, UAlbion.Formats",
-    "font":        "UAlbion.Formats.Parsers.FontSpriteLoader, UAlbion.Formats",
-    "header":      "UAlbion.Formats.Parsers.HeaderBasedSpriteLoader, UAlbion.Formats",
-    "interlaced":  "UAlbion.Formats.Parsers.InterlacedBitmapLoader, UAlbion.Formats",
-    "itemdata":    "UAlbion.Formats.Parsers.ItemDataLoader, UAlbion.Formats",
-    "itemname":    "UAlbion.Formats.Parsers.ItemNameLoader, UAlbion.Formats",
-    "json":        "UAlbion.Formats.Parsers.JsonStringLoader, UAlbion.Formats",
-    "lab":         "UAlbion.Formats.Parsers.LabyrinthDataLoader, UAlbion.Formats",
-    "map":         "UAlbion.Formats.Parsers.MapLoader, UAlbion.Formats",
-    "merchant":    "UAlbion.Formats.Parsers.MerchantLoader, UAlbion.Formats",
-    "mongrp":      "UAlbion.Formats.Parsers.MonsterGroupLoader, UAlbion.Formats",
-    "pal":         "UAlbion.Formats.Parsers.PaletteLoader, UAlbion.Formats",
-    "sample":      "UAlbion.Formats.Parsers.SampleLoader, UAlbion.Formats",
-    "script":      "UAlbion.Formats.Parsers.ScriptLoader, UAlbion.Formats",
-    "sheet":       "UAlbion.Formats.Parsers.CharacterSheetLoader, UAlbion.Formats",
-    "slab":        "UAlbion.Formats.Parsers.SlabLoader, UAlbion.Formats",
-    "song":        "UAlbion.Formats.Parsers.SongLoader, UAlbion.Formats",
-    "soundbank":   "UAlbion.Game.Assets.SoundBankLoader, UAlbion.Game",
-    "spell":       "UAlbion.Formats.Parsers.SpellLoader, UAlbion.Formats",
-    "stext":       "UAlbion.Formats.Parsers.SystemTextLoader, UAlbion.Formats",
-    "stringtable": "UAlbion.Formats.Parsers.AlbionStringTableLoader, UAlbion.Formats",
-    "tileset":     "UAlbion.Formats.Parsers.TilesetLoader, UAlbion.Formats",
-    "wavlib":      "UAlbion.Formats.Parsers.WaveLibLoader, UAlbion.Formats",
-    "wordlist":    "UAlbion.Formats.Parsers.WordListLoader, UAlbion.Formats"
+    "automap":          "UAlbion.Formats.Parsers.AutomapLoader, UAlbion.Formats",
+    "font":             "UAlbion.Game.Assets.FontSpriteLoader`1[[UAlbion.Game.Veldrid.Assets.PngSheetLoader, UAlbion.Game.Veldrid]], UAlbion.Game",
+    "itemNameCollector": "UAlbion.Game.Assets.ItemNameCollector, UAlbion.Game",
+    "wordCollector":    "UAlbion.Game.Assets.WordCollector, UAlbion.Game",
+    "eventSetScript":   "UAlbion.Game.Assets.EventSetScriptLoader, UAlbion.Game",
+    "jsonEventSet":     "UAlbion.Formats.Parsers.JsonLoader`1[[UAlbion.Formats.Assets.EventSet, UAlbion.Formats]], UAlbion.Formats",
+    "jsonInv":          "UAlbion.Formats.Parsers.JsonLoader`1[[UAlbion.Formats.Assets.Inventory, UAlbion.Formats]], UAlbion.Formats",
+    "jsonItems":        "UAlbion.Formats.Parsers.JsonLoader`1[[UAlbion.Formats.Assets.ItemData, UAlbion.Formats]], UAlbion.Formats",
+    "jsonLab":          "UAlbion.Formats.Parsers.JsonLoader`1[[UAlbion.Formats.Assets.Labyrinth.LabyrinthData, UAlbion.Formats]], UAlbion.Formats",
+    "jsonMonsterGroup": "UAlbion.Formats.Parsers.JsonLoader`1[[UAlbion.Formats.Assets.MonsterGroup, UAlbion.Formats]], UAlbion.Formats",
+    "jsonPal":          "UAlbion.Formats.Parsers.JsonLoader`1[[UAlbion.Formats.Assets.AlbionPalette, UAlbion.Formats]], UAlbion.Formats",
+    "script":           "UAlbion.Formats.Parsers.ScriptLoader, UAlbion.Formats",
+    "jsonSheet":        "UAlbion.Formats.Parsers.JsonLoader`1[[UAlbion.Formats.Assets.CharacterSheet, UAlbion.Formats]], UAlbion.Formats",
+    "jsonSpell":        "UAlbion.Formats.Parsers.JsonLoader`1[[UAlbion.Formats.Assets.SpellData, UAlbion.Formats]], UAlbion.Formats",
+    "jsonText":         "UAlbion.Formats.Parsers.JsonLoader`1[[UAlbion.Formats.Assets.ListStringCollection, UAlbion.Formats]], UAlbion.Formats",
+    "png":              "UAlbion.Game.Veldrid.Assets.PngLoader, UAlbion.Game.Veldrid",
+    "pngsheet":         "UAlbion.Game.Veldrid.Assets.PngSheetLoader, UAlbion.Game.Veldrid",
+    "raw":              "UAlbion.Formats.Parsers.RawLoader, UAlbion.Formats",
+    "song":             "UAlbion.Formats.Parsers.SongLoader, UAlbion.Formats",
+    "tiledLabyrinth":   "UAlbion.Game.Veldrid.Assets.IsometricLabyrinthLoader, UAlbion.Game.Veldrid",
+    "tiledMap":         "UAlbion.Game.Assets.TiledMapLoader, UAlbion.Game",
+    "tiledStamp":       "UAlbion.Formats.Exporters.Tiled.StampLoader, UAlbion.Formats",
+    "tiledTileGfx":     "UAlbion.Formats.Exporters.Tiled.TileGraphicsLoader, UAlbion.Formats",
+    "tiledTileset":     "UAlbion.Game.Assets.TiledTilesetLoader, UAlbion.Game",
+    "tiledNpcTileset":  "UAlbion.Game.Veldrid.Assets.NpcTilesetLoader, UAlbion.Game.Veldrid",
+    "utf8":             "UAlbion.Formats.Parsers.Utf8Loader, UAlbion.Formats",
+    "wav":              "UAlbion.Formats.Parsers.WavLoader, UAlbion.Formats",
+    "wavlib":           "UAlbion.Formats.Parsers.WaveLibWavLoader, UAlbion.Formats"
   },
 
-  "Languages": {
-    "ENGLISH": { "Name": "English",  "ShortName": "EN" },
-    "GERMAN":  { "Name": "Deutsch",  "ShortName": "DE" },
-    "FRENCH":  { "Name": "François", "ShortName": "FR" }
+  "Containers": {
+    "dummy": "UAlbion.Formats.Containers.DummyContainer, UAlbion.Formats",
+    "dir": "UAlbion.Formats.Containers.DirectoryContainer, UAlbion.Formats",
+    "jsonObj": "UAlbion.Formats.Containers.JsonObjectContainer, UAlbion.Formats",
+    "jsonStrings": "UAlbion.Formats.Containers.JsonStringContainer, UAlbion.Formats",
+    "raw": "UAlbion.Formats.Containers.RawContainer, UAlbion.Formats"
   },
 
-  "Files": {
-    // Misc
-    "$(ALBION)/DRIVERS/ALBISND.OPL": {
-      "ContainerFormat": "None",
-      "Loader": "soundbank",
-      "Map": { "0": { "Id": "special.SoundBank" } }
+  "Languages": { // Just used for the options screen
+    "ENGLISH": { "DisplayName": "English",  "ShortName": "EN" },
+    "GERMAN":  { "DisplayName": "Deutsch",  "ShortName": "DE" },
+    "FRENCH":  { "DisplayName": "François", "ShortName": "FR" }
+  },
+  "Files": { // Pattern Variables: 0=SubId in container 1=frame/sub-asset number 2=Asset name 3=PaletteId. Patterns must begin with {0}_ when writing.
+    "$(MOD)/Assets/3dBackgrounds":      { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "3dbg.1"     } } },
+    "$(MOD)/Assets/3dFloors":           { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "floor.1"    } } },
+    "$(MOD)/Assets/3dObjects":          { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "3dobj.1"    } } },
+    "$(MOD)/Assets/3dOverlays":         { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "overlay.1"  } } },
+    "$(MOD)/Assets/3dWalls":            { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "wall.1"     } } },
+    "$(MOD)/Assets/CombatBackground":   { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "combg.1"    } } },
+    "$(MOD)/Assets/CombatGraphics":     { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "comgfx.1"   } } },
+    "$(MOD)/Assets/InvBackgrounds":     { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "fullbody.1" } } },
+    "$(MOD)/Assets/MonsterGraphics":    { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "mongfx.1"   } } },
+    "$(MOD)/Assets/NpcGraphicsLarge":   { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "lnpc.1"     } } },
+    "$(MOD)/Assets/NpcGraphicsSmall":   { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "snpc.1"     } } },
+    "$(MOD)/Assets/PartyGraphicsLarge": { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "lparty.1"   } } },
+    "$(MOD)/Assets/PartyGraphicsSmall": { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "sparty.1"   } } },
+    "$(MOD)/Assets/Portraits":          { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "portrait.1" } } },
+    "$(MOD)/Assets/Slab":               { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "uibg.1"     } } },
+    "$(MOD)/Assets/TacticalIcons":      { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1}_p{3}_{2}.png", "Map": { "1": { "Id": "tacgfx.1"   } } },
+
+    "$(MOD)/Assets/Chests":        { "Loader": "jsonInv",          "Container": "dir", "Pattern": "{0}_{2}.json", "Map": { "1": { "Id": "chest.1"    } } },
+    "$(MOD)/Assets/Events":        { "Loader": "eventSetScript",   "Container": "dir", "Pattern": "{0}_{2}.ua",   "Map": { "1": { "Id": "eset.1"     } } },
+    "$(MOD)/Assets/Merchants":     { "Loader": "jsonInv",          "Container": "dir", "Pattern": "{0}_{2}.json", "Map": { "1": { "Id": "merchant.1" } } },
+    "$(MOD)/Assets/MonsterGroups": { "Loader": "jsonMonsterGroup", "Container": "dir", "Pattern": "{0}_{2}.json", "Map": { "1": { "Id": "mongrp.1"   } } },
+    "$(MOD)/Assets/Monsters":      { "Loader": "jsonSheet",        "Container": "dir", "Pattern": "{0}_{2}.json", "Map": { "1": { "Id": "monster.1"  } } },
+    "$(MOD)/Assets/Npcs":          { "Loader": "jsonSheet",        "Container": "dir", "Pattern": "{0}_{2}.json", "Map": { "1": { "Id": "npc.1"      } } },
+    "$(MOD)/Assets/Palettes":      { "Loader": "jsonPal",          "Container": "dir", "Pattern": "{0}_{2}.json", "Map": { "0": { "Id": "pal.0"      } } },
+    "$(MOD)/Assets/PartyMembers":  { "Loader": "jsonSheet",        "Container": "dir", "Pattern": "{0}_{2}.json", "Map": { "1": { "Id": "party.1"    } } },
+    "$(MOD)/Assets/Samples":       { "Loader": "wav",              "Container": "dir", "Pattern": "{0}_{2}.wav",  "Map": { "1": { "Id": "sample.1"   } } },
+    "$(MOD)/Assets/Scripts":       { "Loader": "script",           "Container": "dir", "Pattern": "{0}_{2}.txt",  "Map": { "1": { "Id": "script.1"   } } },
+    "$(MOD)/Assets/Songs":         { "Loader": "song",             "Container": "dir", "Pattern": "{0}_{2}.xmi",  "Map": { "1": { "Id": "song.1"     } } },
+    "$(MOD)/Assets/WaveLib":       { "Loader": "wavlib",           "Container": "dir", "Pattern": "{0}_{1}_{2}.wav", "Map": { "1": { "Id": "wavlib.1" } } },
+    "$(MOD)/Assets/Items.json":    { "Loader": "jsonItems", "Container": "jsonObj", "Map": { "1": { "Id": "item.1"  } } },
+    "$(MOD)/Assets/Spells.json":   { "Loader": "jsonSpell", "Container": "jsonObj", "Map": { "1": { "Id": "spell.1" } } },
+
+    "dummy": { "Loader": "itemNameCollector", "Container": "dummy", "Max": 0, "Map": { "0": { "Id": "special.ItemNames" } } },
+    "$(MOD)/Assets/ItemNamesDE.json": { "Language": "GERMAN",  "Loader": "utf8", "Container": "jsonStrings", "Map": { "1": { "Id": "itemname.1"  } } },
+    "$(MOD)/Assets/ItemNamesEN.json": { "Language": "ENGLISH", "Loader": "utf8", "Container": "jsonStrings", "Map": { "1": { "Id": "itemname.1"  } } },
+    "$(MOD)/Assets/ItemNamesFR.json": { "Language": "FRENCH",  "Loader": "utf8", "Container": "jsonStrings", "Map": { "1": { "Id": "itemname.1"  } } },
+    "$(MOD)/Assets/EventTextDE": {
+      "Language": "GERMAN",
+      "Loader": "jsonText",
+      "Container": "dir",
+      "Pattern": "{0}_{2}.json",
+      "Map": { "1": { "Id": "etext.1" } }
+    },
+    "$(MOD)/Assets/EventTextEN": {
+      "Language": "ENGLISH",
+      "Loader": "jsonText",
+      "Container": "dir",
+      "Pattern": "{0}_{2}.json",
+      "Map": { "1": { "Id": "etext.1" } }
+    },
+    "$(MOD)/Assets/EventTextFR": {
+      "Language": "FRENCH",
+      "Loader": "jsonText",
+      "Container": "dir",
+      "Pattern": "{0}_{2}.json",
+      "Map": { "1": { "Id": "etext.1" } }
     },
 
-    // Items
-    "$(XLD)/ITEMLIST.DAT": { "Loader": "itemdata", "ContainerFormat": "ItemList", "Map": { "0": { "Id": "item.1" } } },
-    "$(XLD)/ITEMNAME.DAT": { "Loader": "itemname", "ContainerFormat": "None", "Map": { "0": { "Id": "special.ItemNames" } } },
-
-    // Events
-    "$(XLD)/EVNTSET0.XLD": { "Loader": "eset", "Map": { "0": { "Id": "eset.1" } } },
-    "$(XLD)/EVNTSET1.XLD": { "Loader": "eset", "Map": { "0": { "Id": "eset.100" } } },
-    "$(XLD)/EVNTSET2.XLD": { "Loader": "eset", "Map": { "0": { "Id": "eset.200" } } },
-    "$(XLD)/EVNTSET3.XLD": { "Loader": "eset", "Map": { "0": { "Id": "eset.300" } } },
-    "$(XLD)/EVNTSET9.XLD": { "Loader": "eset", "Map": { "0": { "Id": "eset.900" } } },
-    "$(XLD)/SCRIPT0.XLD":  { "Loader": "script", "Map": { "0": { "Id": "script.1" } } },
-    "$(XLD)/SCRIPT2.XLD":  { "Loader": "script", "Map": { "0": { "Id": "script.200" } } },
-
-    // Maps
-    "$(XLD)/BLKLIST0.XLD": { "Loader": "block", "Map": { "0": {"Id": "block.1" } } },
-    "$(XLD)/LABDATA0.XLD": { "Loader": "lab", "Map": { "0": { "Id": "lab.1" } } },
-    "$(XLD)/LABDATA1.XLD": { "Loader": "lab", "Map": { "0": { "Id": "lab.100" } } },
-    "$(XLD)/LABDATA2.XLD": { "Loader": "lab", "Map": { "0": { "Id": "lab.200" } } },
-    "$(XLD)/MAPDATA1.XLD": { "Loader": "map", "Map": { "0": { "Id": "map.100" } } },
-    "$(XLD)/MAPDATA2.XLD": { "Loader": "map", "Map": { "0": { "Id": "map.200" } } },
-    "$(XLD)/MAPDATA3.XLD": { "Loader": "map", "Map": { "0": { "Id": "map.300" } } },
-    "$(XLD)/ICONDAT0.XLD": {
-      "Loader": "tileset",
-      "Map": {
-        "0": { "Id": "tiledata.1", "UseSmallGraphics": true },
-        "1": { "UseSmallGraphics": true },
-        "3": { "UseSmallGraphics": true }
-      }
+    "$(MOD)/Assets/MapTextDE": {
+      "Language": "GERMAN",
+      "Loader": "jsonText",
+      "Container": "dir",
+      "Pattern": "{0}_{2}.json",
+      "Map": { "100": { "Id": "mtext.100" } }
+    },
+    "$(MOD)/Assets/MapTextEN": {
+      "Language": "ENGLISH",
+      "Loader": "jsonText",
+      "Container": "dir",
+      "Pattern": "{0}_{2}.json",
+      "Map": { "100": { "Id": "mtext.100" } }
+    },
+    "$(MOD)/Assets/MapTextFR": {
+      "Language": "FRENCH",
+      "Loader": "jsonText",
+      "Container": "dir",
+      "Pattern": "{0}_{2}.json",
+      "Map": { "100": { "Id": "mtext.100" } }
     },
 
-    // Monster info
-    "$(XLD)/MONCHAR0.XLD": { "Loader": "sheet",  "Map": { "0": { "Id": "monster.1" } } },
-    "$(XLD)/MONGRP0.XLD":  { "Loader": "mongrp", "Map": { "0": { "Id": "mongrp.1" } } },
-    "$(XLD)/MONGRP1.XLD":  { "Loader": "mongrp", "Map": { "0": { "Id": "mongrp.100" } } },
-    "$(XLD)/MONGRP2.XLD":  { "Loader": "mongrp", "Map": { "0": { "Id": "mongrp.200" } } },
-
-    // Palettes
-    "$(XLD)/PALETTE.000":  { "Loader": "pal", "ContainerFormat": "None", "Map": { "0": { "Id": "pal.0" } } },
-    "$(XLD)/PALETTE0.XLD": {
-      "Loader": "pal",
-      "Map": {
-        "0":  { "Id": "pal.1", "AnimatedRanges": [ "0x99-0x9f", "0xb0-0xbf" ] },
-        "1":  { "AnimatedRanges": [ "0x99-0x9f", "0xb0-0xb4", "0xb5-0xbf" ] },
-        "2":  { "AnimatedRanges": [ "0x40-0x43", "0x44-0x4f" ] },
-        "5":  { "AnimatedRanges": [ "0xb0-0xb4", "0xb5-0xbf" ] },
-        "13": { "AnimatedRanges": [ "0xb0-0xb3", "0xb4-0xbf" ] },
-        "14": { "AnimatedRanges": [ "0x58-0x5f" ] },
-        "24": { "AnimatedRanges": [ "0xb0-0xb3", "0xb4-0xbf" ] },
-        "25": { "AnimatedRanges": [ "0xb4-0xb7", "0xb8-0xbb", "0xbc-0xbf" ] },
-        "30": { "AnimatedRanges": [ "0x10-0x4f" ] },
-        "46": { "AnimatedRanges": [ "0x99-0x9f", "0xb0-0xb4", "0xb5-0xbf" ] },
-        "48": { "AnimatedRanges": [ "0xb0-0xb3", "0xb4-0xbf" ] },
-        "50": { "AnimatedRanges": [ "0xb0-0xb3", "0xb4-0xbf" ] },
-        "54": { "AnimatedRanges": [ "0x40-0x43", "0x44-0x4f" ] }
-      }
+    "dummy2": { "Language": "GERMAN",  "Loader": "wordCollector", "Container": "dummy", "Max": 2, "Map": { "0": { "Id": "special.Words1" }, "1": { "Id": "special.Words2" }, "2": { "Id": "special.Words3" } } },
+    "dummy3": { "Language": "ENGLISH", "Loader": "wordCollector", "Container": "dummy", "Max": 2, "Map": { "0": { "Id": "special.Words1" }, "1": { "Id": "special.Words2" }, "2": { "Id": "special.Words3" } } },
+    "dummy4": { "Language": "FRENCH",  "Loader": "wordCollector", "Container": "dummy", "Max": 2, "Map": { "0": { "Id": "special.Words1" }, "1": { "Id": "special.Words2" }, "2": { "Id": "special.Words3" } } },
+    "$(MOD)/Assets/WordsDE.json": {
+      "Language": "GERMAN",
+      "Loader": "utf8",
+      "Container": "jsonStrings",
+      "Map": { "1": { "Id": "word.1"    } }
+    },
+    "$(MOD)/Assets/WordsEN.json": {
+      "Language": "ENGLISH",
+      "Loader": "utf8",
+      "Container": "jsonStrings",
+      "Map": { "1": { "Id": "word.1"    } }
+    },
+    "$(MOD)/Assets/WordsFR.json": {
+      "Language": "FRENCH",
+      "Loader": "utf8",
+      "Container": "jsonStrings",
+      "Map": { "1": { "Id": "word.1"    } }
     },
 
-    // Fonts
-    "$(XLD)/FONTS0.XLD": {
+    "$(MOD)/Assets/Automap/1": { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1:000}_p{3}_{2}.png", "Max": 1, "Map": { "1": { "Id": "autotile.1" } } },
+    "$(MOD)/Assets/Automap/2": { "Loader": "png", "Container": "dir", "Pattern": "{0}_{1:000}_p{3}_{2}.png", "Max": 2, "Map": { "2": { "Id": "autotile.2" } } },
+    "$(MOD)/Assets/Automap":   { "Loader": "automap", "Container": "dir", "Pattern": "{0}_{1}_{2}.dat", "Map": { "100": { "Id": "automap.100" } } },
+    "$(MOD)/Assets/Fonts": {
       "Loader": "font",
+      "Container": "dir",
+      "Pattern": "{0}_{2}.png",
       "Width": 8,
       "Height": 8,
-      "Map": {
-        "0": {
-          "Id": "font.1",
-          "Mapping": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890äÄöÖüÜß.:,;'$\"?!/()#%*&+-=><☺♂♀éâàçêëèïîìôòûùáíóú"
-        },
-        "1": {
-          "Mapping": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890äÄöÖüÜß.:,;'$\"?!/()#%*&+-=><☺♂♀éâàçêëèïîìôòûùáíóú"
-        }
-      }
+      "Map": { "1": { "Id": "font.1" } }
     },
-
-    // Audio
-    "$(XLD)/SAMPLES0.XLD": { "Loader": "sample", "Map": { "0": { "Id": "sample.1" } } },
-    "$(XLD)/SAMPLES1.XLD": { "Loader": "sample", "Map": { "0": { "Id": "sample.100" } } },
-    "$(XLD)/SAMPLES2.XLD": { "Loader": "sample", "Map": { "0": { "Id": "sample.200" } } },
-    "$(XLD)/SONGS0.XLD":   { "Loader": "song",   "Map": { "0": { "Id": "song.1" } } },
-    "$(XLD)/WAVELIB0.XLD": { "Loader": "wavlib", "Map": { "0": { "Id": "wavlib.1" } } },
-
-    // Videos
-    "$(XLD)/$(LANG)/FLICS0.XLD":   { "Loader": "flic", "Map": { "0": { "Id": "vid.1" } } },
-
-    // Text
-    "$(XLD)/$(LANG)/EVNTTXT0.XLD": { "Loader": "stringtable", "Map": { "0": { "Id": "etext.1" } } },
-    "$(XLD)/$(LANG)/EVNTTXT1.XLD": { "Loader": "stringtable", "Map": { "0": { "Id": "etext.100" } } },
-    "$(XLD)/$(LANG)/EVNTTXT2.XLD": { "Loader": "stringtable", "Map": { "0": { "Id": "etext.200" } } },
-    "$(XLD)/$(LANG)/EVNTTXT3.XLD": { "Loader": "stringtable", "Map": { "0": { "Id": "etext.300" } } },
-    "$(XLD)/$(LANG)/EVNTTXT9.XLD": { "Loader": "stringtable", "Map": { "0": { "Id": "etext.900" } } },
-    "$(XLD)/$(LANG)/MAPTEXT1.XLD": { "Loader": "stringtable", "Map": { "0": { "Id": "mtext.100" } } },
-    "$(XLD)/$(LANG)/MAPTEXT2.XLD": { "Loader": "stringtable", "Map": { "0": { "Id": "mtext.200" } } },
-    "$(XLD)/$(LANG)/MAPTEXT3.XLD": { "Loader": "stringtable", "Map": { "0": { "Id": "mtext.300" } } },
-    "$(MOD)/$(LANG)/strings.json": {
-      "Loader": "json",
-      "ContainerFormat": "None",
-      "Map": { "0": { "Id": "special.UAlbionStrings" } }
-    },
-    "$(XLD)/$(LANG)/SYSTEXTS":     {
-      "Loader": "stext",
-      "ContainerFormat": "None",
-      "Map": { "0": { "Id": "special.SystemStrings" } }
-    },
-    "$(XLD)/$(LANG)/WORDLIS0.XLD": {
-      "Loader": "wordlist",
-      "Map": {
-        "0": { "Id": "special.Words1" },
-        "1": { "Id": "special.Words2" },
-        "2": { "Id": "special.Words3" }
-      }
-    },
-
-    // Spells
-    "$(XLD)/SPELLDAT.DAT": {
-      "Loader": "spell",
-      "ContainerFormat": "SpellList",
-      "Map": { // Ids = 1 + OffsetInSchool + School * 256
-        "0":   { "Id": "spell.1" },
-        "30":  { "Id": "spell.257" },
-        "60":  { "Id": "spell.513" },
-        "90":  { "Id": "spell.769" },
-        "120": { "Id": "spell.1025" },
-        "150": { "Id": "spell.1281" },
-        "180": { "Id": "spell.1537" }
-      }
-    },
-
-    // Initial game state data
-    "$(XLD)/INITIAL/AUTOMAP1.XLD": { "Loader": "automap",  "Map": { "0": { "Id": "automap.100" } } },
-    "$(XLD)/INITIAL/AUTOMAP2.XLD": { "Loader": "automap",  "Map": { "0": { "Id": "automap.200" } } },
-    "$(XLD)/INITIAL/AUTOMAP3.XLD": { "Loader": "automap",  "Map": { "0": { "Id": "automap.300" } } },
-    "$(XLD)/INITIAL/CHESTDT0.XLD": { "Loader": "chest",    "Map": { "0": { "Id": "chest.1" } } },
-    "$(XLD)/INITIAL/CHESTDT1.XLD": { "Loader": "chest",    "Map": { "0": { "Id": "chest.100" } } },
-    "$(XLD)/INITIAL/CHESTDT2.XLD": { "Loader": "chest",    "Map": { "0": { "Id": "chest.200" } } },
-    "$(XLD)/INITIAL/CHESTDT5.XLD": { "Loader": "chest",    "Map": { "0": { "Id": "chest.500" } } },
-    "$(XLD)/INITIAL/MERCHDT0.XLD": { "Loader": "merchant", "Map": { "0": { "Id": "merchant.1" } } },
-    "$(XLD)/INITIAL/MERCHDT1.XLD": { "Loader": "merchant", "Map": { "0": { "Id": "merchant.100" } } },
-    "$(XLD)/INITIAL/MERCHDT2.XLD": { "Loader": "merchant", "Map": { "0": { "Id": "merchant.200" } } },
-    "$(XLD)/INITIAL/NPCCHAR0.XLD": { "Loader": "sheet",    "Map": { "0": { "Id": "npc.1" } } },
-    "$(XLD)/INITIAL/NPCCHAR1.XLD": { "Loader": "sheet",    "Map": { "0": { "Id": "npc.100" } } },
-    "$(XLD)/INITIAL/NPCCHAR2.XLD": { "Loader": "sheet",    "Map": { "0": { "Id": "npc.200" } } },
-    "$(XLD)/INITIAL/PRTCHAR0.XLD": { "Loader": "sheet",    "Map": { "0": { "Id": "party.1" } } },
-    "$(XLD)/INITIAL/PRTCHAR1.XLD": { "Loader": "sheet",    "Map": { "0": { "Id": "party.100" } } },
-    "$(XLD)/INITIAL/PRTCHAR2.XLD": { "Loader": "sheet",    "Map": { "0": { "Id": "party.200" } } },
-
-    // Graphics
-    "$(XLD)/3DFLOOR0.XLD": { "Loader": "fixedsize", "Width": 64, "Height": 64, "Map": { "0": { "Id": "floor.1" } } },
-    "$(XLD)/3DFLOOR1.XLD": { "Loader": "fixedsize", "Width": 64, "Height": 64, "Map": { "0": { "Id": "floor.100" } } },
-    "$(XLD)/3DFLOOR2.XLD": { "Loader": "fixedsize", "Width": 64, "Height": 64, "Map": { "0": { "Id": "floor.200" } } },
-    "$(XLD)/COMBACK0.XLD": { "Loader": "fixedsize", "Width": 360,              "Map": { "0": { "Id": "combg.1" } } },
-    "$(XLD)/ICONGFX0.XLD": { "Loader": "fixedsize", "Width": 16, "Height": 16, "Map": { "0": { "Id": "tilegfx.1" } } },
-    "$(XLD)/SMLPORT0.XLD": { "Loader": "fixedsize", "Width": 34, "Map": { "0": { "Id": "portrait.1" } } },
-    "$(XLD)/SMLPORT1.XLD": { "Loader": "fixedsize", "Width": 34, "Map": { "0": { "Id": "portrait.100" } } },
-    "$(XLD)/TACTICO0.XLD": { "Loader": "fixedsize", "Width": 32, "Map": { "0": { "Id": "tacgfx.1" } } },
-    "$(XLD)/COMGFX0.XLD":  { "Loader": "header", "Format": "NonUniform", "Map": { "0": { "Id": "comgfx.1"} } },
-    "$(XLD)/MONGFX0.XLD":  { "Loader": "header", "Format": "NonUniform", "Map": { "0": { "Id": "mongfx.1" } } },
-    "$(XLD)/3DBCKGR0.XLD": { "Loader": "header", "Map": { "0": { "Id": "3dbg.1" } } },
-    "$(XLD)/FBODPIX0.XLD": { "Loader": "header", "Map": { "0": { "Id": "fullbody.1" } } },
-    "$(XLD)/NPCGR0.XLD":   { "Loader": "header", "Map": { "0": { "Id": "lnpc.1" } } },
-    "$(XLD)/NPCGR1.XLD":   { "Loader": "header", "Map": { "0": { "Id": "lnpc.100" } } },
-    "$(XLD)/NPCKL0.XLD":   { "Loader": "header", "Map": { "0": { "Id": "snpc.1" } } },
-    "$(XLD)/PARTGR0.XLD":  { "Loader": "header", "Map": { "0": { "Id": "lparty.1" } } },
-    "$(XLD)/PARTKL0.XLD":  { "Loader": "header", "Map": { "0": { "Id": "sparty.1" } } },
-    "$(XLD)/PICTURE0.XLD": { "Loader": "interlaced", "Map": { "0": { "Id": "pic.1" } } },
-    "$(XLD)/ITEMGFX":      {
-      "Loader": "fixedsize",
-      "ContainerFormat": "None",
+    "$(MOD)/Assets/Items.png": {
+      "Loader": "pngsheet",
+      "Container": "raw",
+      "Pattern": "{0}_{2}.png",
       "Width": 16,
       "Height": 16,
-      "Map": { "0": { "Id": "itemgfx.1" } }
+      "Map": { "0": { "Id": "itemgfx.1"  } }
     },
-    "$(XLD)/AUTOGFX0.XLD": {
-      "Loader": "amorphous",
-      "Map": {
-        "0": { "Id": "autotile.1", "SubSprites": "(8,8,576) (16,16)" },
-        "1": { "SubSprites": "(8,8,576) (16,16)" }
-      }
-    },
-    "$(XLD)/SLAB": {
-      "Loader": "slab",
-      "ContainerFormat": "None",
-      "Width": 360,
-      "Map": { "0": { "Id": "uibg.1" } }
-    },
-	
-    "$(XLD)/3DOBJEC0.XLD": { "Loader": "header", "Map": { "0": { "Id": "3dobj.1" } } },
-    "$(XLD)/3DOBJEC1.XLD": { "Loader": "header", "Map": { "0": { "Id": "3dobj.100" } } },
-    "$(XLD)/3DOBJEC2.XLD": { "Loader": "header", "Map": { "0": { "Id": "3dobj.200" } } },
-    "$(XLD)/3DOBJEC3.XLD": { "Loader": "header", "Map": { "0": { "Id": "3dobj.300" } } },
-    "$(XLD)/3DOVERL0.XLD": { "Loader": "header", "Map": { "0": { "Id": "overlay.1" } } },
-    "$(XLD)/3DOVERL1.XLD": { "Loader": "header", "Map": { "0": { "Id": "overlay.100" } } },
-    "$(XLD)/3DOVERL2.XLD": { "Loader": "header", "Map": { "0": { "Id": "overlay.200" } },
-    "$(XLD)/3DWALLS0.XLD": { "Loader": "header", "Map": { "0": { "Id": "wall.1" } } },
-    "$(XLD)/3DWALLS1.XLD": { "Loader": "header", "Map": { "0": { "Id": "wall.100" } } },
 
-    "$(XLD)/Gfx/CoreSprites": {
-      "Loader": "header",
-      "Map": {
-         "0": { "Id": "coresprite.0", "Hotspot": { "X": -6,   "Y":  0 } },
-         "1": { "Hotspot": { "X":  0,   "Y":  4 } },
-         "2": { "Hotspot": { "X":  0,   "Y": 10 } },
-         "3": { "Hotspot": { "X": -7,   "Y":  7 } },
-         "4": { "Hotspot": { "X":  6,   "Y":  6 } },
-         "5": { "Hotspot": { "X": -6,   "Y":  6 } },
-         "6": { "Hotspot": { "X":  6,   "Y":  6 } },
-         "7": { "Hotspot": { "X": -2,   "Y": 12 } },
-         "8": { "Hotspot": { "X":  2,   "Y": 12 } },
-         "9": { "Hotspot": { "X": -1,   "Y":  3 } },
-        "10": { "Hotspot": { "X":  0,   "Y": 13 } },
-        "11": { "Hotspot": { "X": -6,   "Y":  8 } },
-        "12": { "Hotspot": { "X":  5,   "Y":  7 } },
-        "13": { "Hotspot": { "X": -4,   "Y":  4 } },
-        "14": { "Hotspot": { "X":  4,   "Y":  4 } },
-        "15": { "Hotspot": { "X":  4,   "Y": 12 } },
-        "16": { "Hotspot": { "X": -4,   "Y": 12 } },
-        "17": { "Hotspot": { "X": -6,   "Y":  0 } },
-        "18": { "Hotspot": { "X": 10,   "Y":  6 } },
-        "19": { "Hotspot": { "X":  0,   "Y": 10 } },
-        "20": { "Hotspot": { "X": -4,   "Y": 10 } },
-        "21": { "Hotspot": { "X": -4,   "Y":  0 } },
-        "22": { "Hotspot": { "X": -0.5, "Y":  9 } },
-        "23": { "Hotspot": { "X": -0.5, "Y": 10.5 } },
-        "24": { "Hotspot": { "X":  1,   "Y":  7 } },
-        "25": { "Hotspot": { "X": -4,   "Y":  1 } },
-        "26": { "Hotspot": { "X": 5.5,  "Y":  1 } }
-      }
+    "$(MOD)/Assets/Tilesets/1":  { "Loader": "png", "Container": "dir", "PaletteId":  1, "Pattern": "{0}_{1}.png", "Max":  1, "Map": {  "1": { "Id": "tilegfx.1"  } } },
+    "$(MOD)/Assets/Tilesets/2":  { "Loader": "png", "Container": "dir", "PaletteId":  2, "Pattern": "{0}_{1}.png", "Max":  2, "Map": {  "2": { "Id": "tilegfx.2"  } } },
+    "$(MOD)/Assets/Tilesets/3":  { "Loader": "png", "Container": "dir", "PaletteId":  6, "Pattern": "{0}_{1}.png", "Max":  3, "Map": {  "3": { "Id": "tilegfx.3"  } } },
+    "$(MOD)/Assets/Tilesets/4":  { "Loader": "png", "Container": "dir", "PaletteId":  4, "Pattern": "{0}_{1}.png", "Max":  4, "Map": {  "4": { "Id": "tilegfx.4"  } } },
+    "$(MOD)/Assets/Tilesets/5":  { "Loader": "png", "Container": "dir", "PaletteId":  5, "Pattern": "{0}_{1}.png", "Max":  5, "Map": {  "5": { "Id": "tilegfx.5"  } } },
+    "$(MOD)/Assets/Tilesets/6":  { "Loader": "png", "Container": "dir", "PaletteId": 16, "Pattern": "{0}_{1}.png", "Max":  6, "Map": {  "6": { "Id": "tilegfx.6"  } } },
+    "$(MOD)/Assets/Tilesets/7":  { "Loader": "png", "Container": "dir", "PaletteId":  9, "Pattern": "{0}_{1}.png", "Max":  7, "Map": {  "7": { "Id": "tilegfx.7"  } } },
+    "$(MOD)/Assets/Tilesets/8":  { "Loader": "png", "Container": "dir", "PaletteId": 26, "Pattern": "{0}_{1}.png", "Max":  8, "Map": {  "8": { "Id": "tilegfx.8"  } } },
+    "$(MOD)/Assets/Tilesets/9":  { "Loader": "png", "Container": "dir", "PaletteId": 28, "Pattern": "{0}_{1}.png", "Max":  9, "Map": {  "9": { "Id": "tilegfx.9"  } } },
+    "$(MOD)/Assets/Tilesets/10": { "Loader": "png", "Container": "dir", "PaletteId": 45, "Pattern": "{0}_{1}.png", "Max": 10, "Map": { "10": { "Id": "tilegfx.10" } } },
+    "$(MOD)/Assets/Tilesets/11": { "Loader": "png", "Container": "dir", "PaletteId": 56, "Pattern": "{0}_{1}.png", "Max": 11, "Map": { "11": { "Id": "tilegfx.11" } } },
+
+    "$(MOD)/Assets/Tilesets/1/Stamps":  { "Loader": "tiledStamp", "Container": "dir", "Pattern": "{0}_{1:000}.stamp", "TilesetPattern": "../../{0}_{2}.tsx", "Max":  1, "Map": {  "1": { "Id": "block.1" } } },
+    "$(MOD)/Assets/Tilesets/2/Stamps":  { "Loader": "tiledStamp", "Container": "dir", "Pattern": "{0}_{1:000}.stamp", "TilesetPattern": "../../{0}_{2}.tsx", "Max":  2, "Map": {  "2": { "Id": "block.2" } } },
+    "$(MOD)/Assets/Tilesets/3/Stamps":  { "Loader": "tiledStamp", "Container": "dir", "Pattern": "{0}_{1:000}.stamp", "TilesetPattern": "../../{0}_{2}.tsx", "Max":  3, "Map": {  "3": { "Id": "block.3" } } },
+    "$(MOD)/Assets/Tilesets/4/Stamps":  { "Loader": "tiledStamp", "Container": "dir", "Pattern": "{0}_{1:000}.stamp", "TilesetPattern": "../../{0}_{2}.tsx", "Max":  4, "Map": {  "4": { "Id": "block.4" } } },
+    "$(MOD)/Assets/Tilesets/5/Stamps":  { "Loader": "tiledStamp", "Container": "dir", "Pattern": "{0}_{1:000}.stamp", "TilesetPattern": "../../{0}_{2}.tsx", "Max":  5, "Map": {  "5": { "Id": "block.5" } } },
+    "$(MOD)/Assets/Tilesets/6/Stamps":  { "Loader": "tiledStamp", "Container": "dir", "Pattern": "{0}_{1:000}.stamp", "TilesetPattern": "../../{0}_{2}.tsx", "Max":  6, "Map": {  "6": { "Id": "block.6" } } },
+    "$(MOD)/Assets/Tilesets/7/Stamps":  { "Loader": "tiledStamp", "Container": "dir", "Pattern": "{0}_{1:000}.stamp", "TilesetPattern": "../../{0}_{2}.tsx", "Max":  7, "Map": {  "7": { "Id": "block.7" } } },
+    "$(MOD)/Assets/Tilesets/8/Stamps":  { "Loader": "tiledStamp", "Container": "dir", "Pattern": "{0}_{1:000}.stamp", "TilesetPattern": "../../{0}_{2}.tsx", "Max":  8, "Map": {  "8": { "Id": "block.8" } } },
+    "$(MOD)/Assets/Tilesets/9/Stamps":  { "Loader": "tiledStamp", "Container": "dir", "Pattern": "{0}_{1:000}.stamp", "TilesetPattern": "../../{0}_{2}.tsx", "Max":  9, "Map": {  "9": { "Id": "block.9" } } },
+    "$(MOD)/Assets/Tilesets/10/Stamps": { "Loader": "tiledStamp", "Container": "dir", "Pattern": "{0}_{1:000}.stamp", "TilesetPattern": "../../{0}_{2}.tsx", "Max": 10, "Map": { "10": { "Id": "block.10" } } },
+    "$(MOD)/Assets/Tilesets/11/Stamps": { "Loader": "tiledStamp", "Container": "dir", "Pattern": "{0}_{1:000}.stamp", "TilesetPattern": "../../{0}_{2}.tsx", "Max": 11, "Map": { "11": { "Id": "block.11" } } },
+
+    "$(MOD)/Assets/3dTilesets": {
+      // "Loader": "jsonLab",
+      "Loader": "tiledLabyrinth",
+      "Container": "dir",
+
+      "Pattern": "{0}_{2}.json",
+      "TileWidth": 96,
+      "TileHeight": 128,
+      "BaseHeight": 68,
+      "TilesPerRow": 16, 
+      "TiledFloorPattern": "Tiled/{0}_{2}_Floors.tsx", 
+      "TiledCeilingPattern": "Tiled/{0}_{2}_Ceilings.tsx", 
+      "TiledWallPattern": "Tiled/{0}_{2}_Walls.tsx", 
+      "TiledContentsPattern": "Tiled/{0}_{2}_Contents.tsx", 
+
+      "FloorPngPattern": "Tiled/Gfx/{0}_{2}_Floors.png", 
+      "CeilingPngPattern": "Tiled/Gfx/{0}_{2}_Ceilings.png", 
+      "WallPngPattern": "Tiled/Gfx/{0}_{2}_Walls.png", 
+      "ContentsPngPattern": "Tiled/Gfx/{0}_{2}_Contents.png", 
+
+      "Map": { "1": { "Id": "lab.1" } }
+    },
+
+    "$(MOD)/Assets/Tilesets": {
+      "Loader": "tiledTileset",
+      "Container": "dir",
+      "Pattern": "{0}_{2}.tsx",
+      "GraphicsPattern": "{0}/{0}_{1}.png",
+      "BlankTilePath": "../../Blank.png",
+      "Map": { "1": { "Id": "tiledata.1" } }
+    },
+    "$(MOD)/Assets/Tilesets/LargeNPCs.tsx": {
+      "Loader": "tiledNpcTileset",
+      "Container": "raw",
+      "IsSmall": false,
+      "GraphicsPattern": "$(MOD)/Assets/Tilesets/LargeNPCs/{0}.png",
+      "Map": { "0": { "Id": "special.DummyObject" } }
+    },
+    "$(MOD)/Assets/Tilesets/SmallNPCs.tsx": {
+      "Loader": "tiledNpcTileset",
+      "Container": "raw",
+      "IsSmall": true,
+      "GraphicsPattern": "$(MOD)/Assets/Tilesets/SmallNPCs/{0}.png",
+      "Map": { "0": { "Id": "special.DummyObject" } }
+    },
+
+    "$(MOD)/Assets/Maps": {
+      "Loader": "tiledMap",
+      "Container": "dir",
+      "Pattern": "{0}_{2}.tmx",
+      "ScriptPattern": "{0}_{2}.ua",
+
+      "TilesetPattern": "../Tilesets/{0}_{2}.tsx",
+      "SmallNpcs": "../Tilesets/SmallNPCs.tsx",
+      "LargeNpcs": "../Tilesets/LargeNPCs.tsx",
+
+      "TileWidth": 96,
+      "TileHeight": 128,
+      "BaseHeight": 68, 
+      "TiledFloorPattern": "../3dTilesets/Tiled/{0}_{2}_Floors.tsx", 
+      "TiledCeilingPattern": "../3dTilesets/Tiled/{0}_{2}_Ceilings.tsx", 
+      "TiledWallPattern": "../3dTilesets/Tiled/{0}_{2}_Walls.tsx", 
+      "TiledContentsPattern": "../3dTilesets/Tiled/{0}_{2}_Contents.tsx", 
+
+      "Map": { "100": { "Id": "map.100" } }
     }
   }
 }
